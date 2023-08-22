@@ -1,0 +1,19 @@
+[project]
+dependencies = [
+    "dmba@git+https://github.com/polars-stats/dmba@polars"
+    "jax[cpu]",
+    "matplotlib",
+    "numpy",
+    "polars",
+    "prince@git+https://github.com/polars-stats/prince@polars",
+    "pygam",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+    "statsmodels",
+    "wquantiles@git+https://github.com/polars-stats/wquantiles@polars",
+    "pydotplus",
+    "imblearn",
+    "xgboost",
+    "adjustText"
+]
