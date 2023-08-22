@@ -7,14 +7,14 @@ name = "practical-statistics-for-data-scientists"
 version = "0.0.1"
 license = { text = "MIT" }
 dependencies = [
-    "dmba@git+https://github.com/polars-stats/dmba@polars",
+    "dmba@git+https://github.com/polars-stats/dmba",
     "jax[cpu]",
     "matplotlib",
     "numpy",
     "polars",
     "prince@git+https://github.com/polars-stats/prince@polars",
     "pygam",
-    "scikit-learn",
+    "scikit-learn@git+https://github.com/polars-stats/scikit-learn@polars",
     "scipy",
     "seaborn",
     "statsmodels",
