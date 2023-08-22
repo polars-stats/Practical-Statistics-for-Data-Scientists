@@ -1,6 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
 [project]
+name = "practical-statistics-for-data-scientists"
+version = "0.0.1"
+license = { file = "LICENSE" }
 dependencies = [
-    "dmba@git+https://github.com/polars-stats/dmba@polars"
+    "dmba@git+https://github.com/polars-stats/dmba@polars",
     "jax[cpu]",
     "matplotlib",
     "numpy",
@@ -17,3 +24,6 @@ dependencies = [
     "xgboost",
     "adjustText"
 ]
+
+[tool.setuptools.packages.find]
+where = ["python"]
