@@ -132,3 +132,5 @@ dmypy.json
 
 .Trash-0
 .Rproj.user
+
+.DS_Store
