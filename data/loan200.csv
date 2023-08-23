@@ -1,4 +1,4 @@
-outcome,payment_inc_ratio,dti
+outcome,payment_income_ratio,dti
 target,9.0,22.5
 default,5.46933,21.33
 paid off,6.90294,8.97
