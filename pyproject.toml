@@ -5,7 +5,10 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "practical-statistics-for-data-scientists"
 version = "0.0.1"
-license = { text = "MIT" }
+license = { file = "LICENSE" }
+maintainers = [
+    { email = "rnarkkx@gmail.com" }
+]
 dependencies = [
     "dmba@git+https://github.com/polars-stats/dmba",
     "jax[cpu]",
@@ -17,7 +20,7 @@ dependencies = [
     "scikit-learn@git+https://github.com/polars-stats/scikit-learn@polars",
     "scipy",
     "seaborn",
-    "statsmodels",
+    "statsmodels@git+https://github.com/polars-stats/statsmodels@polars",
     "wquantiles@git+https://github.com/polars-stats/wquantiles@polars",
     "pydotplus",
     "imblearn",
